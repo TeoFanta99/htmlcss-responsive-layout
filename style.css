@@ -82,19 +82,40 @@ header {
 
 .text {
     width: 80%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.no-center-text {
+    width: 80%;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.features-row i {
+    text-align: center;
+    font-size: 100px;
+    color: #0984FD;
+    margin-top: 35px;
+}
+
+.feature-logo {
+    width: 100%;
 }
 
 .features-row h2 {
     font-size: 34px;
     color: #0984FD;
-    padding-top: 45px;
-
+    margin-top: 25px;
+    text-align: center;
 }
+
 
 .features-row p {
     margin-top: 20px;
     font-size: 23px;
     line-height: 40px;
+    padding-bottom: 40px;
 }
 
 .features-row button {
@@ -107,9 +128,16 @@ header {
     border: none;
 }
 
+.features-row button i {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
 .features-row a {
     text-decoration: none;
     color: white;
+
 }
 
 .features-row img {
