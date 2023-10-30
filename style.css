@@ -11,3 +11,22 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'PT Sans', sans-serif;
 }
+
+
+/************************** *mobile first **************************/
+header {
+    width: 100%;
+    background-color: #0984FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    min-height: 100px;
+}
+
+#header-container {
+    width: 90%;
+    /* debug */
+    background-color: rgb(130, 255, 130);
+    min-height: 70px;
+}
