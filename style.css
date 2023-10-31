@@ -13,6 +13,18 @@
 }
 
 
+h2 {
+    font-size: 34px;
+}
+
+p {
+    font-size: 23px;
+}
+
+
+
+
+
 /************************** *mobile first **************************/
 
 /* stili header */
@@ -53,6 +65,10 @@ header {
 }
 
 
+
+
+
+
 /* stili sezione "features" */
 #features {
     margin-top: 35px;
@@ -62,13 +78,10 @@ header {
     width: 100%;
 }
 
-
-
 .features-row {
     width: 90%;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
 }
 
 .col {
@@ -106,7 +119,6 @@ header {
 }
 
 .features-row h2 {
-    font-size: 34px;
     color: #0984FD;
     margin-top: 25px;
     text-align: center;
@@ -115,7 +127,6 @@ header {
 
 .features-row p {
     margin-top: 20px;
-    font-size: 23px;
     line-height: 40px;
     padding-bottom: 40px;
 }
@@ -165,13 +176,11 @@ header {
     padding-top: 50px;
     display: flex;
     flex-direction: column;
-
 }
 
 #strategic-planning img {
     width: 100%;
 }
-
 
 #strategic-planning h2 {
     color: white;
@@ -235,17 +244,29 @@ header {
 
 #testimonials-container {
     width: 85%;
-    margin: 20px auto;
+    margin: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     /* ho messo sia text-align:center che align-items: center così da poter centrare sia i testi che tutti gli elementi di questo container, compresi i blocchi con le testimonianze*/
-
-    /* debug
-    min-height: 500px;
-    background-color: green; */
 }
+
+#testimonials-container span {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#testimonials-container h2 {
+    color: #9792E4;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+#testimonials-container > p {
+    font-size: 30px;
+}
+
 
 .testimonials-card {
     margin-top: 50px;
@@ -289,8 +310,6 @@ header {
 #benefits {
     background-color: #9792E4;
     padding-bottom: 70px;
-    /* debug */
-    min-height: 500px;
 }
 
 #benefits-container {
@@ -312,8 +331,6 @@ header {
     margin-top: 50px;
     border-radius: 30px;
     padding: 40px;
-    /* debug */
-    min-height: 300px;
 }
 
 .benefit-card h3 {
@@ -348,17 +365,12 @@ header {
 /* sezione "about us" */
 #about-us {
     width: 100%;
-    /* debug */
-    min-height: 500px;
 }
 
 #about-us-section-container {
     width: 85%;
     margin: 30px auto;
     padding-bottom: 30px;
-    /* debug
-    min-width: 400px;
-    background-color: orange; */
 }
 
 #about-us-container h2 {
@@ -398,8 +410,6 @@ header {
     width: 100%;
     background-color: #9792E4;
     padding-top: 30px;
-    /* debug */
-    min-height: 500px;
 }
 
 #get-started-container {
@@ -407,9 +417,6 @@ header {
     margin: 40px auto 0;
     text-align: center;
     padding-bottom: 50px;
-    /* debug
-    background-color: red;
-    min-height: 400px; */
 }
 
 #get-started-title {
@@ -480,17 +487,101 @@ footer a{
 
 
 /************************* tablet version **************************/
-@media all and (min-width: 480px) {
+@media all and (min-width: 481px) {
 
+    h2 {
+        font-size: 27px;
+    }
 
+    p {
+        font-size: 19px;
+    }
+
+    .features-row {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5px;
+    }
+    
+    .col {
+        width: calc((100% / 3) - 10px);
+        margin: 10px 5px;
+        background-color: #B5DDFF;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; /* messo wrap per far andare a capo l'immagine */
+    }
+
+    .big-col {
+        width: calc((100% / 3) * 2 - 10px);
+    }
+
+    .features-row i {
+        font-size: 80px;
+    }
 
 }
 
 
 
-
 /************************* desktop version **************************/
 @media all and (min-width: 768px) {
+        
+    .features-row {
+        max-width: 1000px;
+    }
+
+    #strategic-planning {
+        width: 100%;
+        margin-top: 100px;
+        background-color: #9792E4;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 60px;
+    }
+    
+    #strategic-planning-container {
+        max-width: 900px;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #strategic-planning img {
+        width: 50%;
+    }
+    
+    #strategic-planning h2 {
+        color: white;
+        font-size: 45px;
+        margin-top: 30px;
+    }
+    
+    #strategic-planning-container p {
+        color: white;
+        font-size: 25px;
+        margin-top: 40px;
+        line-height: 40px;
+    }
+    
+    #app-development-container {
+        margin-top: 30px;
+        background: white;
+        width: 50%;
+        border-radius: 40px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    
+    #app-development-container img {
+        padding-top: 25px;
+    }
+
+
+
+
 
 
 
