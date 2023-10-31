@@ -235,9 +235,6 @@ header {
     margin-top: 50px;
     padding-top: 25px;
     padding-bottom: 85px;
-    /* debug
-    min-height: 300px;
-    background-color: red; */
 }
 
 #testimonials-container {
@@ -250,7 +247,7 @@ header {
     /* ho messo sia text-align:center che align-items: center così da poter centrare sia i testi che tutti gli elementi di questo container, compresi i blocchi con le testimonianze*/
 }
 
-#testimonials-container span {
+.section-title {
     font-size: 30px;
     margin-bottom: 20px;
 }
@@ -270,28 +267,25 @@ header {
     margin-top: 50px;
     background-color: #9792E4;
     color: white;
-    padding-bottom: 30px;
     border-radius: 45px;
+    display: flex;
+    flex-direction: column;
 }
 
 .img-container {
-    width: 65%;
-    margin: 0 auto;
-    border-radius: 50px;
+    margin: 20px auto;
 }
 
 .img-container img {
-    width: 100%;
-    margin-top: 30px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
     border-radius: 50%;
 }
 
 .testimonials-card p {
     margin-top: 20px;
     font-size: 28px;
-    margin-left: 10px;
-    margin-right: 10px;
-
 }
 
 .testimonials-name {

@@ -34,6 +34,7 @@
         font-size: 80px;
     }
 
+
 }
 
 
@@ -104,6 +105,44 @@
         border-radius: 50px;
         padding: 8px 13px;
         display: inline-block; 
+    }
+
+    #testimonials-container {
+        max-width: 900px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        align-items: center;
+        /* ho messo sia text-align:center che align-items: center così da poter centrare sia i testi che tutti gli elementi di questo container, compresi i blocchi con le testimonianze*/
+    }
+
+
+    #testimonials-container > p {
+    font-size: 20px;
+    }
+
+    .testimonials-card {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .testimonials-card p, .testimonials-card span {
+        font-size: 24px;
+    }
+
+    .img-container {
+        width: 30%;
+        margin-left: 10px;
+    }
+
+    .img-container img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .testimonials-text {
+        width: 70%;
     }
 
 
