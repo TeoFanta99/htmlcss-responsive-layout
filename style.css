@@ -288,6 +288,7 @@ header {
 /* sezione "benefits of working with us" */
 #benefits {
     background-color: #9792E4;
+    padding-bottom: 70px;
     /* debug */
     min-height: 500px;
 }
@@ -296,13 +297,13 @@ header {
     width: 85%;
     padding-top: 20px;
     margin: auto;
-    text-align: center;
 }
 
 #benefits-container h2 {
     color: white;
     font-size: 45px;
     margin-top: 30px;
+    text-align: center;
 }
 
 .benefit-card {
@@ -310,12 +311,172 @@ header {
     width: 100%;
     margin-top: 50px;
     border-radius: 30px;
+    padding: 40px;
     /* debug */
     min-height: 300px;
 }
 
+.benefit-card h3 {
+    color: #9792E4;
+    font-size: 60px;
+}
+
+.benefit-card h4 {
+    color: #9792E4;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.benefit-card p {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.benefit-card a {
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #9792E4;
+    color: white;
+    padding: 12px 65px;
+    border-radius: 50px;
+}
 
 
+
+/* sezione "about us" */
+#about-us {
+    width: 100%;
+    /* debug */
+    min-height: 500px;
+}
+
+#about-us-section-container {
+    width: 85%;
+    margin: 30px auto;
+    padding-bottom: 30px;
+    /* debug
+    min-width: 400px;
+    background-color: orange; */
+}
+
+#about-us-container h2 {
+    font-size: 60px;
+    color: #9792E4;
+}
+
+#about-us-container p {
+    font-size: 28px;
+    line-height: 45px;
+    display: block;
+    margin-top: 50px;
+}
+
+#owner-info p {
+    color: #9792E4;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#owner-info a {
+    font-size: 25px;
+    color: white;
+    background-color: #9792E4;
+    text-decoration: none;
+    padding: 12px 18px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+
+
+
+/* sezione "get started" */
+#get-started {
+    width: 100%;
+    background-color: #9792E4;
+    padding-top: 30px;
+    /* debug */
+    min-height: 500px;
+}
+
+#get-started-container {
+    width: 85%;
+    margin: 40px auto 0;
+    text-align: center;
+    padding-bottom: 50px;
+    /* debug
+    background-color: red;
+    min-height: 400px; */
+}
+
+#get-started-title {
+    font-size: 30px;
+    color: white;
+}
+
+#get-started-container h2 {
+    color: white;
+    font-size: 40px;
+    margin-top: 25px;
+}
+
+#big-span {
+    color: #FDC15F;
+    font-size: 70px;
+    margin-top: 25px;
+}
+
+#get-started-container p {
+    color: white;
+    font-size: 21px;
+    margin-top: 25px;
+}
+
+#get-started-btn {
+    color: #9792E4;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px 90px;
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#get-started-container span {
+    display: block;
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#get-started-container span a {
+    color: white;
+}
+
+
+
+/* stili footer */
+footer {
+    background-color: #333333 ;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+footer p {
+    margin-bottom: 30px;
+}
+
+footer a{
+    color: #938EDE;
+}
 
 
 /************************* tablet version **************************/
