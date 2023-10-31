@@ -34,6 +34,21 @@
         font-size: 80px;
     }
 
+    #benefits-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 900px;
+    }
+    
+    
+    .benefit-card {
+        background-color: white;
+        width: calc((100% / 2) - 10px);
+        margin-top: 50px;
+        border-radius: 30px;
+        padding: 40px;
+    }
 
 }
 
@@ -145,7 +160,9 @@
         width: 70%;
     }
 
-
+    .benefit-card {
+        width: calc((100% / 3) - 10px);
+    }
 
 
 
