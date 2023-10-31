@@ -56,18 +56,6 @@
         max-width: 350px;
         padding-top: 50px;
     }
-    
-    #app-development-container {
-        margin-top: 30px;
-        background: white;
-        max-width: 350px;
-        border-radius: 40px;
-        text-align: center;
-        padding-bottom: 30px;
-
-        /* debug
-        min-height: 800px; */
-    }
 
     #strategic-planning h2 {
         font-size: 34px;
@@ -76,6 +64,48 @@
     #strategic-planning h3 {
         font-size: 30px;
     }
+    
+    #app-development-container {
+        margin-top: 30px;
+        max-width: 350px;
+        border-radius: 40px;
+        text-align: center;
+        padding-bottom: 30px;
+        position: relative;
+        /* debug */
+        background-color: #9792E4;
+    }
+
+    #app-developement-items-container {
+        background-color: white;
+        position: absolute;
+        bottom: 0;
+        max-height: 600px;
+        padding-bottom: 10px;
+        border-radius: 30px;
+    }
+
+    #app-development-container img {
+        max-width: 70%;
+    }
+
+
+    #app-development-container h3 {
+        font-size: 24px;
+    }
+
+    #app-development-container p {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    #app-development-container a {
+        background-color: #9792E4;
+        border-radius: 50px;
+        padding: 8px 13px;
+        display: inline-block; 
+    }
+
 
 
 
