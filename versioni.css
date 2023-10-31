@@ -1,0 +1,83 @@
+/************************* tablet version **************************/
+@media all and (min-width: 481px) {
+
+    h2 {
+        font-size: 27px;
+    }
+
+    p {
+        font-size: 19px;
+    }
+
+    .features-row {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5px;
+    }
+    
+    .col {
+        width: calc((100% / 3) - 10px);
+        margin: 10px 5px;
+        background-color: #B5DDFF;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; /* messo wrap per far andare a capo l'immagine */
+    }
+
+    .big-col {
+        width: calc((100% / 3) * 2 - 10px);
+    }
+
+    .features-row i {
+        font-size: 80px;
+    }
+
+}
+
+
+
+/************************* desktop version **************************/
+@media all and (min-width: 768px) {
+        
+    .features-row {
+        max-width: 1000px;
+    }
+
+    .section-container {
+        max-width: 900px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #strategic-planning-container {
+        max-width: 350px;
+        padding-top: 50px;
+    }
+    
+    #app-development-container {
+        margin-top: 30px;
+        background: white;
+        max-width: 350px;
+        border-radius: 40px;
+        text-align: center;
+        padding-bottom: 30px;
+
+        /* debug
+        min-height: 800px; */
+    }
+
+    #strategic-planning h2 {
+        font-size: 34px;
+    }
+
+    #strategic-planning h3 {
+        font-size: 30px;
+    }
+
+
+
+
+}

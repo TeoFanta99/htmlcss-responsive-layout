@@ -165,17 +165,17 @@ header {
     width: 100%;
     margin-top: 100px;
     background-color: #9792E4;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     padding-bottom: 60px;
 }
 
+.section-container {
+    width: 85%;
+    margin: 0 auto;
+}
+
 #strategic-planning-container {
-    width: 80%;
+    width: 100%;
     padding-top: 50px;
-    display: flex;
-    flex-direction: column;
 }
 
 #strategic-planning img {
@@ -184,7 +184,7 @@ header {
 
 #strategic-planning h2 {
     color: white;
-    font-size: 45px;
+    font-size: 44px;
     margin-top: 30px;
 }
 
@@ -198,7 +198,7 @@ header {
 #app-development-container {
     margin-top: 30px;
     background: white;
-    width: 80%;
+    width: 100%;
     border-radius: 40px;
     text-align: center;
     padding-bottom: 30px;
@@ -486,103 +486,3 @@ footer a{
 }
 
 
-/************************* tablet version **************************/
-@media all and (min-width: 481px) {
-
-    h2 {
-        font-size: 27px;
-    }
-
-    p {
-        font-size: 19px;
-    }
-
-    .features-row {
-        width: 90%;
-        display: flex;
-        flex-wrap: wrap;
-        padding: 5px;
-    }
-    
-    .col {
-        width: calc((100% / 3) - 10px);
-        margin: 10px 5px;
-        background-color: #B5DDFF;
-        border-radius: 20px;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap; /* messo wrap per far andare a capo l'immagine */
-    }
-
-    .big-col {
-        width: calc((100% / 3) * 2 - 10px);
-    }
-
-    .features-row i {
-        font-size: 80px;
-    }
-
-}
-
-
-
-/************************* desktop version **************************/
-@media all and (min-width: 768px) {
-        
-    .features-row {
-        max-width: 1000px;
-    }
-
-    #strategic-planning {
-        width: 100%;
-        margin-top: 100px;
-        background-color: #9792E4;
-        display: flex;
-        justify-content: center;
-        padding-bottom: 60px;
-    }
-    
-    #strategic-planning-container {
-        max-width: 900px;
-        padding-top: 50px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    #strategic-planning img {
-        width: 50%;
-    }
-    
-    #strategic-planning h2 {
-        color: white;
-        font-size: 45px;
-        margin-top: 30px;
-    }
-    
-    #strategic-planning-container p {
-        color: white;
-        font-size: 25px;
-        margin-top: 40px;
-        line-height: 40px;
-    }
-    
-    #app-development-container {
-        margin-top: 30px;
-        background: white;
-        width: 50%;
-        border-radius: 40px;
-        text-align: center;
-        padding-bottom: 30px;
-    }
-    
-    #app-development-container img {
-        padding-top: 25px;
-    }
-
-
-
-
-
-
-
-}
