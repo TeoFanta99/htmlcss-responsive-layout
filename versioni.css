@@ -34,6 +34,12 @@
         font-size: 80px;
     }
 
+    .testimonials-text {
+        margin-right: 30px;
+    }
+
+
+
     #benefits-container {
         flex-direction: row;
         flex-wrap: wrap;
@@ -115,7 +121,26 @@
 @media all and (min-width: 768px) {
         
     .features-row {
-        max-width: 1000px;
+        max-width: 1200px;
+    }
+
+    .no-center-text {
+        width: 50%;
+        padding-left: 30px;
+        text-align: start;
+    }
+
+    .no-center-text h2 {
+        text-align: start;
+    }
+
+    .features-row img {
+        width: 50%;
+        padding-top: 50px;
+    }
+
+    .big-col {
+        display: flex;
     }
 
     .section-container {

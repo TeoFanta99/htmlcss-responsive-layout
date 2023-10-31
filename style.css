@@ -265,6 +265,7 @@ header {
 
 .testimonials-card {
     margin-top: 50px;
+    padding: 20px;
     background-color: #9792E4;
     color: white;
     border-radius: 45px;
@@ -283,16 +284,19 @@ header {
     border-radius: 50%;
 }
 
-.testimonials-card p {
-    margin-top: 20px;
-    font-size: 28px;
-}
 
 .testimonials-name {
     font-weight: bold;
     font-size: 30px;
     margin-top: 30px;
     display: block;
+}
+
+.testimonials-text {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 25px;
 }
 
 
