@@ -119,6 +119,26 @@
 
 /************************* desktop version **************************/
 @media all and (min-width: 768px) {
+
+    #header-right i {
+        display: none;
+    }
+
+    #header-right li {
+        list-style: none;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    #header-right ul {
+        display: block;
+    }
+
+    #header-right a {
+        text-decoration: none;
+        color: white;
+    }
+
         
     .features-row {
         max-width: 1200px;
